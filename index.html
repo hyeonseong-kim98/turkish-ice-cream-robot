@@ -178,7 +178,7 @@
 <!-- The Turkish Ice Cream Robot -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 850px;">
+    <div class="container" style="max-width: 800px;">
       <h2 class="title is-3 has-text-centered">The Turkish Ice Cream Robot</h2>
       <div class="columns is-centered is-mobile">
         <div class="column">
@@ -195,6 +195,8 @@
           <p class="has-text-centered mt-2">Magnetic attachment ensures a seamless and safe interaction.</p>
         </div>
       </div>
+
+      <p class="content has-text-justified">To mimic the Turkish ice cream (TIC) vendor's behavior, we designed a rod-like end-effector equipped on the robotic manipulator. The additional motor enables rapid, continuous twisting rotations, which are difficult to achieve with the manipulator’s built-in motors. The 55 cm rod not only reproduces the vendor’s characteristic tricky motions but also amplifies the cone’s displacement, helping it evade the user’s grasp. </p>
 
       <div class="trick-policies-section">
         <h2 class="title is-4 has-text-centered mt-6">The Trick Policies</h2>
@@ -392,8 +394,10 @@
           }
         }
       </style>
-
     </div>
+    <div class="container" style="max-width: 800px;">
+      <p class="content has-text-justified">Inspired by the TIC vendor's behavior, the five trick policies were designed, including bouncing, twisting, large arc, continuous arc, and dancing. Each policy has the characteristics of the TIC routine, which are extracted by observation analysis of the online videos of the human TIC vendor. The robot executes the trick policies sequentially, playfully confusing the user while adhering to the predefined interaction duration for each policy.</p>
+  </div>
   </div>
 </section>
 <!-- End The Turkish Ice Cream Robot -->
@@ -401,7 +405,7 @@
 <!-- Magnetic Connections -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 900px;">
+    <div class="container" style="max-width: 800px;">
       <h2 class="title is-3 has-text-centered">User Study </h2>
       <div class="is-flex is-justify-content-center is-flex-wrap-wrap" style="gap: 20px;">
         <div style="display: flex; gap: 20px;">
@@ -423,7 +427,7 @@
       </div>
       <div class="content has-text-justified mt-4">
         <p>
-          We conducted a user study with <strong>91 participants</strong> to evaluate the effect of the playful Turkish ice cream style deceptive handover (DH) on the user experience, comparing to the straight handover (SH). The participants experienced both of the handover scenarios in a randomized order.
+          We conducted a user study with <strong>91 participants</strong> to evaluate the effect of the playful Turkish ice cream-style deceptive handover (DH) on the user experience, compared to the straight handover (SH). The participants experienced both of the handover scenarios in a randomized order.
         </p>
       </div>
     </div>
@@ -434,7 +438,7 @@
 <!-- Interactivity Duration -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 950px;">
+    <div class="container" style="max-width: 800px;">
       <!-- <h2 class="title is-3">Interactivity Duration</h2> -->
       <div class="columns is-centered is-mobile">
         <div class="column is-one-third">
@@ -461,7 +465,7 @@
       </div>
       <div class="content has-text-justified mt-4">
         <p>
-          In addition, we also test how the <strong></strong>interactivity duration</strong> affects to the user experience in the deceptive handover scenario. We set the interactivity duration to short, medium, and long. Short duration employed half the time/iteration of the medium duration, and long duration employed twice the medium duration. The participants randomly experienced one of the three interactivity duration in the DH scenario.
+          In addition, we tested how the <strong>interactivity duration</strong> influences the user experience in the deceptive handover scenario. We set the interactivity duration to short, medium, and long. Short duration employed half the time/iteration of the medium duration, and long duration employed twice the medium duration. The participants randomly experienced one of the three interactivity duration in the DH scenario.
         </p>
       </div>
     </div>
@@ -472,14 +476,16 @@
 <!-- Data Collection -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 950px;">
-      <!-- <h2 class="title is-3 has-text-centered">User Study Videos</h2> -->
+    <div class="container" style="max-width: 800px;">
       <div class="columns is-centered is-mobile">
         <div class="column">
           <video poster="" id="data_collection" autoplay controls muted loop width="100%">
             <source src="static/videos/userstudy.mp4"
             type="video/mp4">
           </video>
+          <div class="content has-text-centered mt-2">
+            <p>The first-person view video captured during the deceptive handovers in the user study.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -489,14 +495,14 @@
 <!-- User Study Results -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 950px;">
+    <div class="container" style="max-width: 800px;">
       <!-- <h2 class="title is-3 has-text-centered">User Study Results</h2> -->
       <div class="columns is-centered">
         <div class="column">
           <img src="static/images/user_study_result.png" alt="User Study Results" style="width: 100%;">
         </div>
       </div>
-      <p class="content has-text-justified">The results show that DH was perceived as more deceptive than SH, while increasing enjoyment-related outcomes (pleasure, challenge, engagement) and competence, but reducing trust, safety, and self-competence, while three interactivity duration conditions follow the similar pattern. The multi-dimensional analysis reveals a potential role of playful deception in the human-robot interaction design, showing its trade-offs, though it should be used with caution in safety-critical applications.</p>
+      <p class="content has-text-justified">The results show that DH was perceived as more deceptive than SH, while increasing enjoyment-related outcomes (pleasure, challenge, engagement) and competence, but reducing trust, safety, and self-competence. The three interaction duration conditions of DH followed a similar pattern. The multi-dimensional analysis reveals a potential role of playful deception in the human-robot interaction design, showing its trade-offs, though it should be used with caution in safety-critical applications.</p>
     </div>
   </div>
 </section>
